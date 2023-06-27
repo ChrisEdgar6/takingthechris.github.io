@@ -1,0 +1,144 @@
+html {
+    background-color: white;
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    width: 80%;
+    margin: 20px auto;
+}
+
+body {
+    width: 100%;
+    background-image: url("./images/Paper.jpg");
+}
+
+
+
+/* ==== Heading and Navigation Panel ==== */
+
+header {
+    width: 100%;
+}
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-size: 75px;
+    margin: 10px auto;
+    width: 100%;
+}
+
+nav {
+    font-weight: bold;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    width: 50%;
+    margin: 0 auto;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin: 1px 25px;
+    padding: 0;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'Amatic SC', cursive;
+    width: 75px;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    color: grey;
+}
+
+
+
+/* ==== Content ==== */
+
+.welcome {
+    padding-top: 15px;
+}
+
+.content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.Articles,
+.About-me,
+.Contact-me {
+    max-width: 300px;
+    height: 200px;
+    display: inline;
+    border-radius: 5px;
+} 
+
+figcaption {
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+img {
+    box-shadow: -2.5px 2.5px lightgray;
+}
+
+img:hover {
+    opacity: 0.75;
+}
+
+h2 {
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    font-weight: bold;
+    margin: 10px auto;
+    width: 100%;
+}
+
+
+/* ==== Webpage Footer Information ==== */
+
+footer {
+    border-top: 2px solid black;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.instagram, 
+.linkedin {
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+.footer-images {
+    display: flex;
+    justify-content: space-around;
+    width: 150px;
+    margin: 20px auto;
+}
+
